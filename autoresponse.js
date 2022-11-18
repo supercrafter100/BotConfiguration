@@ -1,5 +1,6 @@
 module.exports = [
     {
+        id: 1,
         keywords: [["how", "upload", "favicon"]],
         response: {
             "title": "Adding a favicon to v2",
@@ -12,6 +13,7 @@ module.exports = [
         }
     },
     {
+        id: 2,
         keywords: [
             ["The requested URL was not found on this server."],
             ["This page either doesn't exist, or it moved somewhere else."],
@@ -26,6 +28,7 @@ module.exports = [
         }
     },
     {
+        id: 3,
         keywords: [["Unable to enable incompatible module."]],
         response: {
             "title": "Incompatible module",
@@ -38,6 +41,7 @@ module.exports = [
         }
     },
     {
+        id: 4,
         keywords: [["invalid api method"]],
         response: {
             "title": "Invalid API method",
@@ -46,6 +50,7 @@ module.exports = [
         }
     },
     {
+        id: 5,
         keywords: [["unable to load template 'file"]],
         response: {
             "title": "Unable to load template file",
@@ -64,6 +69,7 @@ module.exports = [
         }
     },
     {
+        id: 6,
         keywords: [["Typed property Pages::$_active_page must not be accessed before initialization"]],
         response: {
             "title": "404 page breaking",
@@ -75,6 +81,7 @@ module.exports = [
         }
     },
     {
+        id: 7,
         keywords: [["upload failed, unknown error occured"]],
         response: {
             "title": "Folder is not writeable",
@@ -88,6 +95,7 @@ module.exports = [
         }
     },
     {
+        id: 8,
         keywords: [["invalid token, please try again"]],
         response: {
             "title": "Invalid token",
@@ -98,6 +106,7 @@ module.exports = [
         }
     },
     {
+        id: 9,
         keywords: [[" 777"]],
         response: {
             "title": "Proper file permissions",
@@ -112,6 +121,7 @@ module.exports = [
         }
     },
     {
+        id: 10,
         keywords: [
             ["NamelessMC could not be downloaded. Please ensure", "your webserver has permissions to write to your file system"],
             ["Permission denied in /var/www/html/easy-install.php"],
@@ -134,6 +144,7 @@ module.exports = [
         }
     },
     {
+        id: 11,
         keywords: [
             ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
             ["<meta name=\"description\" content=\"Fatal Error"],
@@ -164,6 +175,7 @@ module.exports = [
         }
     },
     {
+        id: 12,
         keywords: [["how", "setup", "mail"], ["how", "setup", "phpmailer"], ["how", "setup", "gmail"]],
         response: {
             "title": "Setting up PHPMailer",
@@ -181,6 +193,7 @@ module.exports = [
         }
     },
     {
+        id: 13,
         keywords: [["SMTP Error: Could not authenticate"]],
         response: {
             "title": "PHPMailer authentication",
@@ -193,6 +206,7 @@ module.exports = [
         }
     },
     {
+        id: 14,
         keywords: [["Invalid reCAPTCHA response"]],
         response: {
             "title": "Invalid reCAPTCHA configuration",
@@ -205,6 +219,7 @@ module.exports = [
         }
     },
     {
+        id: 15,
         keywords: [["hCaptcha has failed to initialize"]],
         response: {
             "title": "Invalid hCaptcha configuration",
@@ -214,7 +229,8 @@ module.exports = [
             ]
         }
     },
-        {
+    {
+        id: 16,      
         keywords: [["how", "disable", "captcha"]],
         response: {
             "title": "Disabling captcha",
@@ -227,6 +243,7 @@ module.exports = [
         }
     },
     {
+        id: 17,
         keywords: [["where", "find", "api"], ["how", "find", "api"]],
         response: {
             "title": "Finding your API configuration",
@@ -237,6 +254,7 @@ module.exports = [
         }
     },
     {
+        id: 18,
         keywords: [["how", "remove", "status page"]],
         response: {
             "title": "Removing the minecraft status page",
@@ -247,6 +265,7 @@ module.exports = [
         }
     },
     {
+        id: 19,
         keywords: [
             ["Announcements.php(50): Using $this when not in object context"],
             ["Undefined constant \"PAGE\""],
@@ -262,6 +281,7 @@ module.exports = [
         }
     },
     {
+        id: 20,
         keywords: [
             ["Undefined constant \"REQUEST_URI\""]
         ],
@@ -274,6 +294,7 @@ module.exports = [
         }
     },
     {
+        id: 21,
         keywords: [
             ["how", "enable", "friendly url"],
             ["how", "enable", "friendly urls"]
@@ -287,6 +308,7 @@ module.exports = [
         }
     },
     {
+        id: 22,
         keywords: [
             ["<title>Please Wait... | Cloudflare</title>"],
             ["<title>Just a moment...</title>"],
@@ -300,6 +322,7 @@ module.exports = [
         }
     },
     {
+        id: 23,
         keywords: [["Please wait while your request is being verified..."]],
         response: {
             title: "Blocked by a firewall",
@@ -310,6 +333,7 @@ module.exports = [
         },
     },
     {
+        id: 24,
         keywords: [["badge", "colors"], ["badge", "colours"], ["badge", "color"], ["badge", "colour"], ["group html", "colors"], ["group html", "colours"], ["group html", "color"], ["group html", "colour"]],
         response: {
             "title": "Group HTML",
@@ -328,6 +352,7 @@ module.exports = [
         }
     },
     {
+        id: 25,
         keywords: [
             ["Minecraft username is invalid"],
         ],
@@ -340,6 +365,7 @@ module.exports = [
         }
     },
     {
+        id: 26,
         keywords: [
             ["Your bot might not be eligible to request a privileged intent such as GUILD_PRESENCES or GUILD_MEMBERS"],
         ],
@@ -353,6 +379,7 @@ module.exports = [
         }
     },
     {
+        id: 27,
         keywords: [["compiled by a more recent version of the Java Runtime (class file version 61.0)"]],
         response: {
             "title": "Outdated Java",
@@ -363,6 +390,7 @@ module.exports = [
         }
     },
     {
+        id: 28,
         keywords: [["compiled by a more recent version of the Java Runtime (class file version 55.0)"]],
         response: {
             "title": "Outdated Java",
@@ -373,6 +401,7 @@ module.exports = [
         }
     },
     {
+        id: 29,
         keywords: [
             ["IOException: Read timed out"],
             ["IOException: Connect timed out"],
@@ -394,6 +423,7 @@ module.exports = [
         }
     },
     {
+        id: 30,
         keywords: [["/aes.js"]],
         response: {
             "title": "API blocked",
@@ -404,6 +434,7 @@ module.exports = [
         }
     },
     {
+        id: 31,
         keywords: [["SQLSTATE", "Access denied for user"], ["SQLSTATE", "Connection refused"]],
         response: {
             "title": "Database connection issues",
@@ -421,6 +452,7 @@ module.exports = [
         }
     },
     {
+        id: 32,
         keywords: [["HTTP ERROR 500"]],
         response: {
             "title": "webserver error",
@@ -434,6 +466,7 @@ module.exports = [
         }
     },
     {
+        id: 33,
         keywords: [["The widget is disabled for the specified discord server"], ["\"message\": \"Widget Disabled\", \"code\": 50004"]],
         response: {
             "title": "Discord widget",
@@ -447,6 +480,7 @@ module.exports = [
         }
     },
     {
+        id: 34,
         keywords: [
             ["Frame", "VerifyMinecraftEndpoint"],
             ["VerifyMinecraftEndpoint", "abstract method"],
@@ -463,6 +497,7 @@ module.exports = [
         }
     },
     {
+        id: 35,
         keywords: [
             ["Base table or view not found", "nl2_phinxlog", "database migrations pending"],
         ],
@@ -477,6 +512,7 @@ module.exports = [
         }
     },
     {
+        id: 36,
         keywords: [["Translation file not found"]],
         response: {
             "title": "Translation file not found",
@@ -487,6 +523,7 @@ module.exports = [
         }
     },
     {
+        id: 37,
         keywords: [["Base table or view not found", "nl2_settings"]],
         response: {
             "title": "Installation issues",
@@ -497,6 +534,7 @@ module.exports = [
         }
     },
     {
+        id: 38,
         keywords: [["java.lang.UnsupportedOperationException: JsonNull", "com.namelessmc.plugin.lib.nameless-api.Website"]],
         response: {
             title: "Null locale",
@@ -507,6 +545,7 @@ module.exports = [
         }
     },
     {
+        id: 39,
         keywords: [["nameless:invalid_api_key"]],
         response: {
             title: "Invalid API key",
@@ -521,6 +560,7 @@ module.exports = [
         },
     },
     {
+        id: 40,
         keywords: [["nameless:missing_api_key"]],
         response: {
             title: "Missing API key",
@@ -534,6 +574,7 @@ module.exports = [
         },
     },
     {
+        id: 41,
         keywords: [
             ["port 80", "https"],
             [":80", "https://", "api/v2"],
@@ -556,6 +597,7 @@ module.exports = [
         },
     },
     {
+        id: 42,
         keywords: [["redirect_uri"], ["redirect_uri_mismatch"]],
         response: {
             title: "OAuth redirect URI misconfiguration",
@@ -568,6 +610,7 @@ module.exports = [
         }
     },
     {
+        id: 43,
         keywords: [["Field 'group_html_lg' doesn't have a default value"]],
         response: {
             title: "Field 'group_html_lg' doesn't have a default value",
@@ -578,6 +621,7 @@ module.exports = [
         },
     },
     {
+        id: 44,
         keywords: [["AssetResolver", "gatherAsset", "null given"]],
         response: {
             title: "Util::determineOrder() broken in v2-pr13",
@@ -588,6 +632,7 @@ module.exports = [
         },
     },
     {
+        id: 45,
         keywords: [["NoClassDefFoundError", "kyori", "adventure"]],
         response: {
             title: "Nameless-Plugin \"Paper\" jar",
@@ -598,6 +643,7 @@ module.exports = [
         }
     },
     {
+        id: 46,
         keywords: [["IllegalPluginAccessException", "register", "disabled"]],
         response: {
             title: "IllegalPluginAccessException: Plugin attempted to register task while disabled",
@@ -608,6 +654,7 @@ module.exports = [
         }
     },
     {
+        id: 47,
         keywords: [["invalid_post_contents", "tps"]],
         response: {
             title: "ServerInfoEndpoint validation issue in v2-pr13",
@@ -618,6 +665,7 @@ module.exports = [
         },
     },
     {
+        id: 48,
         keywords: [["Error loading language file general.php"]],
         response: {
             title: "Cannot load php language file",
@@ -628,6 +676,7 @@ module.exports = [
         },
     },
     {
+        id: 49,
         keywords: [["MCQuery", "TypeError", "Cannot access offset of type string on string"]],
         response: {
             title: "Query motd bug in v2-pr13",
@@ -638,6 +687,7 @@ module.exports = [
         },
     },
     {
+        id: 50,
         keywords: [["Error", "Cannot use object of type stdClass as array", "LatestPostsWidget"]],
         response: {
             title: "Latest posts widget issue in v2-pr13",
@@ -648,6 +698,7 @@ module.exports = [
         },
     },
     {
+        id: 51,
         keywords: [
             ["plugin not set up"],
             ["plugin not setup"],
@@ -661,6 +712,7 @@ module.exports = [
         },
     },
     {
+        id: 52,
         keywords: [["nginx", "403 Forbidden"]],
         response: {
             title: "NGINX forbidden",
@@ -674,6 +726,7 @@ module.exports = [
         },
     },
     {
+        id: 53,
         keywords: [["nginx", "502 Bad Gateway"]],
         response: {
             title: "NGINX bad gateway",
@@ -686,6 +739,7 @@ module.exports = [
         },
     },
     {
+        id: 54,
         keywords: [["767 bytes"]],
         response: {
             title: "Specified key was too long; max key length is 767 bytes",
@@ -696,6 +750,7 @@ module.exports = [
         },
     },
     {
+        id: 55,
         keywords: [["empty response", "status code 521"]],
         response: {
             title: "Empty response with status code 521",
@@ -706,6 +761,7 @@ module.exports = [
         },
     },
     {
+        id: 56,
         keywords: [["ExternalMCQuery", "must be of type bool", "null given"]],
         response: {
             title: "External query bedrock setting issue in v2-pr13",
@@ -716,6 +772,7 @@ module.exports = [
         },
     },
     {
+        id: 57,
         keywords: [["change", "api", "bot"]],
         response: {
             title: "Change API Key for Nameless Link Discord bot",
@@ -726,6 +783,7 @@ module.exports = [
         }
     },
     {
+        id: 58,
         keywords: [["column", "username", "cannot be null"]],
         response: {
             title: "Issue with user integrations",
@@ -744,6 +802,7 @@ module.exports = [
         }
     },
     {
+        id: 59,
         keywords: [["must be of type Countable", "MCQuery"]],
         response: {
             title: "MOTD extra data issue in v2-p13",
@@ -754,6 +813,7 @@ module.exports = [
         },
     },
     {
+        id: 60,
         keywords: [['Undefined constant "DEFAULT_LANGUAGE"', 'Undefined constant "MINECRAFT"']],
         response: {
             title: "Admin account creation issue in 2.0.0",
@@ -764,6 +824,7 @@ module.exports = [
         },
     },
     {
+        id: 61,
         keywords: [["Config file does not exist"]],
         response: {
             title: "Config file does not exist",
@@ -774,6 +835,7 @@ module.exports = [
         },
     },
     {
+        id: 62,
         keywords: [["Column 'reset_code' cannot be null"]],
         response: {
             title: "Column 'reset_code' cannot be null",
@@ -787,6 +849,7 @@ module.exports = [
         },
     },
     {
+        id: 63,
         keywords: [["GOAWAY received"]],
         response: {
             title: "GOAWAY received",
@@ -797,6 +860,7 @@ module.exports = [
         },
     },
     {
+        id: 64,
         keywords: [["init", "Undefined constant", "host"]],
         response: {
             title: "core/init.php(90): Undefined constant \"host\"",
